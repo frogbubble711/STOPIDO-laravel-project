@@ -1,0 +1,114 @@
+/* Stylesheet by Anupam @ https://anupammondal.in */
+
+body {
+    text-transform: capitalize !important;
+}
+
+#header-bg {
+    background-image: url('https://images.pexels.com/photos/3756693/pexels-photo-3756693.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=800');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-bg {
+    background-image: url('https://images.pexels.com/photos/3756693/pexels-photo-3756693.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=800');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
+
+.card-bg-color {
+    background-color: #ffffffcc;
+}
+
+#brand-position {
+    position: absolute !important;
+    bottom: 15% !important;
+    left: 35% !important;
+}
+
+.text-stopido {
+    color: #f56726 !important;
+}
+
+.bg-stopido {
+    background-color: #f56726 !important;
+}
+
+.bg-stopido-half {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, rgba(245, 103, 38, 1) 50%);
+}
+
+.stopido-bg {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(105deg, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0) 30%);
+}
+
+.text-shadow {
+    text-shadow: #fff 0px 0px 5px;
+}
+
+.bg-half-transparent {
+    background-color: #ffffff88;
+}
+
+.parallax {
+    background-image: url("https://images.pexels.com/photos/3756693/pexels-photo-3756693.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=800");
+    /* height: 400px; */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.card-i {
+    margin-top: -45px !important;
+    width: fit-content;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+ul.down-nav li {
+    list-style: none !important;
+}
+
+ul.down-nav {
+    padding-inline-start: 0px !important;
+}
+
+.faq-partner-card {
+    background-image: url("https://images.pexels.com/photos/3756693/pexels-photo-3756693.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=800");
+    /* background-position: top right; */
+}
+
+.faq-supplier-card {
+    background-image: url("https://images.pexels.com/photos/3756693/pexels-photo-3756693.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=800");
+    background-position: bottom left;
+}
+
+.faq-partner-card:hover, .faq-supplier-card:hover {
+    background-image: none;
+    background-color: #fff;
+}
+
+.accordion .card-header h2 button:before {
+    content: "\2716";
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.accordion .card-header h2 button.collapsed:before {
+    content: "\2795";
+    font-weight: 600;
+    font-size: 1em;
+}
+
+img.prd-bottom-thumb {
+    width: 20%;
+    padding: 10px 7px;
+    margin: auto;
+    display: inline-block;
+}
